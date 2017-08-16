@@ -9,7 +9,7 @@
     "eslint-plugin-node": "^5.1.1",
     "nodemon": "^1.11.0"
   },
-  "name": "basic-node-micro-starter",
+  "name": "node-micro-starter",
   "engines": {
     "node": ">=4.0.0"
   },
