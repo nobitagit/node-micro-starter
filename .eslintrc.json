@@ -1,0 +1,24 @@
+{
+  "env": {
+    "es6": true,
+    "node" : true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": 0
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+ "plugins": ["node", "babel"],
+ "extends": ["eslint:recommended", "plugin:node/recommended"],
+  "rules": {
+    "babel/new-cap": 1,
+    "babel/object-curly-spacing": ["error", "always"],
+    "babel/no-invalid-this": 1,
+    "babel/semi": 1,
+    "node/no-unsupported-features": 0,
+    "no-console": 0
+  }
+}
