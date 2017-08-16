@@ -1,8 +1,8 @@
 export default function app() {
-  const a = { b: 2 };
+  const a = { b: 1 };
   console.log({
     ...a,
-    c: 3,
-    d: 4,
+    c: 2,
+    d: 3,
   });
 }
