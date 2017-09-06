@@ -11,7 +11,7 @@
   },
   "name": "node-micro-starter",
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=8.0.0"
   },
   "private": true,
   "version": "1.0.0",
